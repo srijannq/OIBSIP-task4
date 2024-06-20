@@ -1,0 +1,83 @@
+/* Elegant Styles */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f9f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #3f72af;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #dbe2ef;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #112d4e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #112d4e;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+form[action="/logout?_method=DELETE"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+.index {
+  background-color: #3f72af;
+}
